@@ -1,12 +1,12 @@
 /* Base Styles and Variables */
 :root {
-    --primary-color: #ff5733; /* vibrant coral */
-    --secondary-color: #4caf50; /* green */
-    --text-primary: #333333; /* dark gray */
-    --text-secondary: #757575; /* lighter gray */
-    --background-light: #f0f8ff; /* soft light blue */
+    --primary-color: #9b59b6; /* purple */
+    --secondary-color: #8e44ad; /* dark purple */
+    --text-primary: #2c3e50; /* dark gray */
+    --text-secondary: #7f8c8d; /* lighter gray */
+    --background-light: #f3e5f5; /* light purple */
     --card-background: #ffffff; /* white */
-    --border-color: #e0e0e0; /* light gray */
+    --border-color: #dcdcdc; /* light gray */
 }
 
 /* Reset and Base Styles */
@@ -238,7 +238,7 @@ body {
 .social-link:hover {
     color: var(--secondary-color);
     transform: translateY(-3px);
-    background-color: rgba(255, 87, 51, 0.1); /* Vibrant coral on hover */
+    background-color: rgba(155, 89, 182, 0.1); /* Light purple on hover */
 }
 
 .social-name {
