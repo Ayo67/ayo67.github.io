@@ -1,12 +1,12 @@
 /* Base Styles and Variables */
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --text-primary: #1f2937;
-    --text-secondary: #4b5563;
-    --background-light: #f8fafc;
-    --card-background: #ffffff;
-    --border-color: #e5e7eb;
+    --primary-color: #ff5733; /* vibrant coral */
+    --secondary-color: #4caf50; /* green */
+    --text-primary: #333333; /* dark gray */
+    --text-secondary: #757575; /* lighter gray */
+    --background-light: #f0f8ff; /* soft light blue */
+    --card-background: #ffffff; /* white */
+    --border-color: #e0e0e0; /* light gray */
 }
 
 /* Reset and Base Styles */
@@ -238,7 +238,7 @@ body {
 .social-link:hover {
     color: var(--secondary-color);
     transform: translateY(-3px);
-    background-color: rgba(37, 99, 235, 0.1);
+    background-color: rgba(255, 87, 51, 0.1); /* Vibrant coral on hover */
 }
 
 .social-name {
